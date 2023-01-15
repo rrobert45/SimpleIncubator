@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 import time
-from Adafruit_DHT import DHT22
+import Adafruit_DHT 
 
 # Set the GPIO pin number for the DHT22 sensor
 dht_pin = 4
