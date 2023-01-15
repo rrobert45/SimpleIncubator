@@ -3,7 +3,9 @@ import time
 import Adafruit_DHT 
 
 # Set the GPIO pin number for the DHT22 sensor
+DHT22 = Adafruit_DHT.DHT22
 dht_pin = 4
+
 
 # Set the GPIO pin numbers for the relays
 heat_relay_pin = 17
