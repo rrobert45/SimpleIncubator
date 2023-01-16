@@ -13,8 +13,8 @@ humidifier_relay_pin = 27
 egg_turner_relay_pin = 22
 
 # Set the temperature and humidity thresholds
-temp_threshold = 70
-humidity_threshold = 50
+temp_threshold = 50
+humidity_threshold = 20
 
 # Initialize the GPIO pins
 GPIO.setmode(GPIO.BCM)
